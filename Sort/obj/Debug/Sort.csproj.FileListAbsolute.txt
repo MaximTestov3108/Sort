@@ -1,0 +1,9 @@
+C:\Users\maksim\source\repos\Sort\Sort\bin\Debug\Sort.exe.config
+C:\Users\maksim\source\repos\Sort\Sort\bin\Debug\Sort.exe
+C:\Users\maksim\source\repos\Sort\Sort\bin\Debug\Sort.pdb
+C:\Users\maksim\source\repos\Sort\Sort\obj\Debug\Sort.csprojAssemblyReference.cache
+C:\Users\maksim\source\repos\Sort\Sort\obj\Debug\Sort.btnMixed.resources
+C:\Users\maksim\source\repos\Sort\Sort\obj\Debug\Sort.Properties.Resources.resources
+C:\Users\maksim\source\repos\Sort\Sort\obj\Debug\Sort.csproj.GenerateResource.cache
+C:\Users\maksim\source\repos\Sort\Sort\obj\Debug\Sort.exe
+C:\Users\maksim\source\repos\Sort\Sort\obj\Debug\Sort.pdb
