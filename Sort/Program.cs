@@ -16,7 +16,7 @@ namespace Sort
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new btnMixed());
+            Application.Run(new Form1());
         }
     }
 }

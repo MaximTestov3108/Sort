@@ -10,17 +10,21 @@ using System.Windows.Forms;
 
 namespace Sort
 {
-    public partial class btnMixed : Form
+    public partial class Form1 : Form
     {
-        public btnMixed()
+    
+        public Form1()
         {
             InitializeComponent();
 
             init_form();
+
+           
         }
+        bool is_sorted;
         List<ListItem> elements;
         List<FormListItem> form_elements;
-        bool is_sorted;
+        
 
         public void init_elements()
         {
@@ -53,7 +57,7 @@ namespace Sort
 
         public void show_elements()
         {
-            for(int i =0; i < form_elements.Count; i++)
+            for(int i = 0; i < form_elements.Count; i++)
             {
                 form_elements[i].Pb.Image = elements[i].Image;
                 form_elements[i].Tb.Text = elements[i].Name;
@@ -71,6 +75,54 @@ namespace Sort
 
             is_sorted = false;
             btnBinSearch.Enabled = false;
+        }
+
+        private List<int> get_indexies()
+        {
+            List<int> indexies = new List<int>();
+            for(int i = 0; i < elements.Count; i++)
+            {
+                indexies.Add(i);
+            }
+
+            return indexies;
+        }
+
+
+        private void mixed_elements()
+        {
+            List<int> free_indexies = get_indexies();
+            Random rnd = new Random();
+            for(int i = 0; i < form_elements.Count; i++)
+            {
+                int elem_index = rnd.Next(0, free_indexies.Count);
+                form_elements[i].Pb.Image = elements[free_indexies[elem_index]].Image;
+                form_elements[i].Tb.Text = elements[free_indexies[elem_index]].Name;
+                form_elements[i].Pb.SizeMode = PictureBoxSizeMode.Zoom;
+                form_elements[i].Tb.TextAlign = HorizontalAlignment.Center;
+
+                free_indexies.RemoveAt(elem_index);
+            }
+            is_sorted = false;
+            btnBinSearch.Enabled = false;
+        }
+
+        private void sort_elements()
+        {
+            QuickSort.quick_sort(elements);
+            is_sorted = true;
+            btnBinSearch.Enabled = false;
+            show_elements();
+        }
+        private void btnMixed_Click(object sender, EventArgs e)
+        {
+            mixed_elements();
+        }
+
+        private void btnSort_Click(object sender, EventArgs e)
+        {
+            sort_elements();
+           
         }
     }
 }

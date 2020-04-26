@@ -1,6 +1,6 @@
 ﻿namespace Sort
 {
-    partial class btnMixed
+    partial class Form1
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -47,7 +47,7 @@
             this.tbArray4 = new System.Windows.Forms.TextBox();
             this.tbArray3 = new System.Windows.Forms.TextBox();
             this.tbArray2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnMixed = new System.Windows.Forms.Button();
             this.btnBinSearch = new System.Windows.Forms.Button();
             this.btnSort = new System.Windows.Forms.Button();
             this.pbArray9 = new System.Windows.Forms.PictureBox();
@@ -79,6 +79,7 @@
             this.label1.Size = new System.Drawing.Size(167, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Эволюции иви";
+            this.label1.UseWaitCursor = true;
             // 
             // label2
             // 
@@ -87,6 +88,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 13);
             this.label2.TabIndex = 10;
+            this.label2.UseWaitCursor = true;
             // 
             // label3
             // 
@@ -95,6 +97,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 13);
             this.label3.TabIndex = 11;
+            this.label3.UseWaitCursor = true;
             // 
             // label4
             // 
@@ -103,6 +106,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(0, 13);
             this.label4.TabIndex = 12;
+            this.label4.UseWaitCursor = true;
             // 
             // label5
             // 
@@ -111,6 +115,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 13);
             this.label5.TabIndex = 13;
+            this.label5.UseWaitCursor = true;
             // 
             // label6
             // 
@@ -119,6 +124,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(0, 13);
             this.label6.TabIndex = 14;
+            this.label6.UseWaitCursor = true;
             // 
             // label7
             // 
@@ -127,6 +133,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(0, 13);
             this.label7.TabIndex = 15;
+            this.label7.UseWaitCursor = true;
             // 
             // label8
             // 
@@ -135,6 +142,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(0, 13);
             this.label8.TabIndex = 16;
+            this.label8.UseWaitCursor = true;
             // 
             // label9
             // 
@@ -143,6 +151,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(0, 13);
             this.label9.TabIndex = 17;
+            this.label9.UseWaitCursor = true;
             // 
             // label10
             // 
@@ -151,6 +160,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(0, 13);
             this.label10.TabIndex = 18;
+            this.label10.UseWaitCursor = true;
             // 
             // tbArray1
             // 
@@ -158,7 +168,7 @@
             this.tbArray1.Name = "tbArray1";
             this.tbArray1.Size = new System.Drawing.Size(109, 20);
             this.tbArray1.TabIndex = 19;
-            this.tbArray1.Text = "             Иви";
+            this.tbArray1.UseWaitCursor = true;
             // 
             // tbArray5
             // 
@@ -166,7 +176,7 @@
             this.tbArray5.Name = "tbArray5";
             this.tbArray5.Size = new System.Drawing.Size(109, 20);
             this.tbArray5.TabIndex = 20;
-            this.tbArray5.Text = "           Гласеон";
+            this.tbArray5.UseWaitCursor = true;
             // 
             // tbArray9
             // 
@@ -174,7 +184,7 @@
             this.tbArray9.Name = "tbArray9";
             this.tbArray9.Size = new System.Drawing.Size(109, 20);
             this.tbArray9.TabIndex = 21;
-            this.tbArray9.Text = "         Сильвеон";
+            this.tbArray9.UseWaitCursor = true;
             // 
             // tbArray8
             // 
@@ -182,7 +192,7 @@
             this.tbArray8.Name = "tbArray8";
             this.tbArray8.Size = new System.Drawing.Size(109, 20);
             this.tbArray8.TabIndex = 22;
-            this.tbArray8.Text = "           Эспион";
+            this.tbArray8.UseWaitCursor = true;
             // 
             // tbArray7
             // 
@@ -190,7 +200,7 @@
             this.tbArray7.Name = "tbArray7";
             this.tbArray7.Size = new System.Drawing.Size(109, 20);
             this.tbArray7.TabIndex = 23;
-            this.tbArray7.Text = "         Джолтеон";
+            this.tbArray7.UseWaitCursor = true;
             // 
             // tbArray6
             // 
@@ -198,7 +208,7 @@
             this.tbArray6.Name = "tbArray6";
             this.tbArray6.Size = new System.Drawing.Size(109, 20);
             this.tbArray6.TabIndex = 24;
-            this.tbArray6.Text = "          Умбреон";
+            this.tbArray6.UseWaitCursor = true;
             // 
             // tbArray4
             // 
@@ -206,7 +216,7 @@
             this.tbArray4.Name = "tbArray4";
             this.tbArray4.Size = new System.Drawing.Size(109, 20);
             this.tbArray4.TabIndex = 25;
-            this.tbArray4.Text = "         Вапореон";
+            this.tbArray4.UseWaitCursor = true;
             // 
             // tbArray3
             // 
@@ -214,7 +224,7 @@
             this.tbArray3.Name = "tbArray3";
             this.tbArray3.Size = new System.Drawing.Size(109, 20);
             this.tbArray3.TabIndex = 26;
-            this.tbArray3.Text = "          Лифеон";
+            this.tbArray3.UseWaitCursor = true;
             // 
             // tbArray2
             // 
@@ -222,17 +232,19 @@
             this.tbArray2.Name = "tbArray2";
             this.tbArray2.Size = new System.Drawing.Size(109, 20);
             this.tbArray2.TabIndex = 27;
-            this.tbArray2.Text = "         Флареон";
+            this.tbArray2.UseWaitCursor = true;
             // 
-            // button1
+            // btnMixed
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(72, 523);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 61);
-            this.button1.TabIndex = 28;
-            this.button1.Text = "Mixed!";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnMixed.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.btnMixed.Location = new System.Drawing.Point(72, 523);
+            this.btnMixed.Name = "btnMixed";
+            this.btnMixed.Size = new System.Drawing.Size(133, 61);
+            this.btnMixed.TabIndex = 28;
+            this.btnMixed.Text = "Mixed!";
+            this.btnMixed.UseVisualStyleBackColor = true;
+            this.btnMixed.UseWaitCursor = true;
+            this.btnMixed.Click += new System.EventHandler(this.btnMixed_Click);
             // 
             // btnBinSearch
             // 
@@ -243,6 +255,7 @@
             this.btnBinSearch.TabIndex = 29;
             this.btnBinSearch.Text = "Binary search!";
             this.btnBinSearch.UseVisualStyleBackColor = true;
+            this.btnBinSearch.UseWaitCursor = true;
             // 
             // btnSort
             // 
@@ -253,105 +266,107 @@
             this.btnSort.TabIndex = 30;
             this.btnSort.Text = "Sort!";
             this.btnSort.UseVisualStyleBackColor = true;
+            this.btnSort.UseWaitCursor = true;
+            this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
             // 
             // pbArray9
             // 
-            this.pbArray9.BackgroundImage = global::Sort.Properties.Resources.Sylveon;
             this.pbArray9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbArray9.Location = new System.Drawing.Point(733, 294);
             this.pbArray9.Name = "pbArray9";
             this.pbArray9.Size = new System.Drawing.Size(109, 107);
             this.pbArray9.TabIndex = 9;
             this.pbArray9.TabStop = false;
+            this.pbArray9.UseWaitCursor = true;
             // 
             // pbArray4
             // 
-            this.pbArray4.BackgroundImage = global::Sort.Properties.Resources.Vaporeon1;
             this.pbArray4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbArray4.Location = new System.Drawing.Point(733, 104);
             this.pbArray4.Name = "pbArray4";
             this.pbArray4.Size = new System.Drawing.Size(109, 107);
             this.pbArray4.TabIndex = 8;
             this.pbArray4.TabStop = false;
+            this.pbArray4.UseWaitCursor = true;
             // 
             // pbArray7
             // 
-            this.pbArray7.BackgroundImage = global::Sort.Properties.Resources.Jolteon;
             this.pbArray7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbArray7.Location = new System.Drawing.Point(290, 294);
             this.pbArray7.Name = "pbArray7";
             this.pbArray7.Size = new System.Drawing.Size(109, 107);
             this.pbArray7.TabIndex = 7;
             this.pbArray7.TabStop = false;
+            this.pbArray7.UseWaitCursor = true;
             // 
             // pbArray5
             // 
-            this.pbArray5.BackgroundImage = global::Sort.Properties.Resources._471;
             this.pbArray5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbArray5.Location = new System.Drawing.Point(940, 104);
             this.pbArray5.Name = "pbArray5";
             this.pbArray5.Size = new System.Drawing.Size(109, 107);
             this.pbArray5.TabIndex = 6;
             this.pbArray5.TabStop = false;
+            this.pbArray5.UseWaitCursor = true;
             // 
             // pbArray6
             // 
-            this.pbArray6.BackgroundImage = global::Sort.Properties.Resources.Umbreon;
             this.pbArray6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbArray6.Location = new System.Drawing.Point(72, 294);
             this.pbArray6.Name = "pbArray6";
             this.pbArray6.Size = new System.Drawing.Size(109, 107);
             this.pbArray6.TabIndex = 5;
             this.pbArray6.TabStop = false;
+            this.pbArray6.UseWaitCursor = true;
             // 
             // pbArray8
             // 
-            this.pbArray8.BackgroundImage = global::Sort.Properties.Resources.Espeon;
             this.pbArray8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbArray8.Location = new System.Drawing.Point(523, 294);
             this.pbArray8.Name = "pbArray8";
             this.pbArray8.Size = new System.Drawing.Size(109, 107);
             this.pbArray8.TabIndex = 4;
             this.pbArray8.TabStop = false;
+            this.pbArray8.UseWaitCursor = true;
             // 
             // pbArray3
             // 
-            this.pbArray3.BackgroundImage = global::Sort.Properties.Resources._470_leafeon;
             this.pbArray3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbArray3.Location = new System.Drawing.Point(523, 104);
             this.pbArray3.Name = "pbArray3";
             this.pbArray3.Size = new System.Drawing.Size(109, 107);
             this.pbArray3.TabIndex = 3;
             this.pbArray3.TabStop = false;
+            this.pbArray3.UseWaitCursor = true;
             // 
             // pbArray2
             // 
-            this.pbArray2.BackgroundImage = global::Sort.Properties.Resources._136Flareon;
             this.pbArray2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbArray2.Location = new System.Drawing.Point(290, 104);
             this.pbArray2.Name = "pbArray2";
             this.pbArray2.Size = new System.Drawing.Size(109, 107);
             this.pbArray2.TabIndex = 2;
             this.pbArray2.TabStop = false;
+            this.pbArray2.UseWaitCursor = true;
             // 
             // pbArray1
             // 
-            this.pbArray1.BackgroundImage = global::Sort.Properties.Resources.Покемон_Иви;
             this.pbArray1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pbArray1.Location = new System.Drawing.Point(72, 104);
             this.pbArray1.Name = "pbArray1";
             this.pbArray1.Size = new System.Drawing.Size(109, 107);
             this.pbArray1.TabIndex = 1;
             this.pbArray1.TabStop = false;
+            this.pbArray1.UseWaitCursor = true;
             // 
-            // btnMixed
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1083, 603);
             this.Controls.Add(this.btnSort);
             this.Controls.Add(this.btnBinSearch);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnMixed);
             this.Controls.Add(this.tbArray2);
             this.Controls.Add(this.tbArray3);
             this.Controls.Add(this.tbArray4);
@@ -381,7 +396,7 @@
             this.Controls.Add(this.pbArray1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Name = "btnMixed";
+            this.Name = "Form1";
             this.UseWaitCursor = true;
             ((System.ComponentModel.ISupportInitialize)(this.pbArray9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbArray4)).EndInit();
@@ -427,7 +442,7 @@
         private System.Windows.Forms.TextBox tbArray4;
         private System.Windows.Forms.TextBox tbArray3;
         private System.Windows.Forms.TextBox tbArray2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnMixed;
         private System.Windows.Forms.Button btnBinSearch;
         private System.Windows.Forms.Button btnSort;
     }
